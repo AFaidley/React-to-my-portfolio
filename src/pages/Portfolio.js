@@ -3,8 +3,7 @@ import React from 'react';
 function Portfolio(props) {
     console.log(props)
   return (
-    <div className=''>
-        <h1>{props.tacocat}</h1>
+    <div className='App'>
       <h3 id='my-projects'>My Projects</h3>
       <div>
         <h1><a href={props.oneLive}>{props.one}</a></h1>

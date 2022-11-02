@@ -6,33 +6,10 @@ import thirdImg from '../img/NoteTaker.png'
 import fourthImg from '../img/Screenshot 2022-07-24 153656.png'
 import fifthImg from '../img/Screenshot 2022-07-29 145947.png'
 import sixthImg from '../img/JATE.jpg'
-import projects from "./projects.json"
+
 function Projects() {
   return (
     <div className='App'>
-
-      {projects.map(element => {
-        return <div>
-        <h1><a href={props.oneLive}>{props.one}</a></h1>
-        <a href={props.oneLive} target='_blank' rel='noopener noreferrer'>
-          <img src={props.oneImg} alt={props.one}></img>
-        </a>
-        <a
-          href={props.oneRepo}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Repo Link
-        </a>
-      </div>
-      })}
-
-      </div>
-  );
-}
-
-export default Projects;
-<div>
       <Portfolio 
       one='Health Tracker'
       oneImg={firstImg}
@@ -64,3 +41,7 @@ export default Projects;
       sixLive='https://text-editing-time.herokuapp.com/'
       sixRepo='https://github.com/AFaidley/Come-on-web-app-be-more-progressive'/>
     </div>
+  );
+}
+
+export default Projects;

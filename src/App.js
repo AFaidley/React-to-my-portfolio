@@ -6,10 +6,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-// import myPic from './img/me.jpg';
 import React from 'react';
 import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Projects from './components/Projects';
 
 function App() {
@@ -18,17 +18,13 @@ function App() {
 
   return (
     <Router className="App">
-
     <Header className="App-header"/>
-    <Projects />
       <Routes>
         <Route exact path='/' element={<AboutMe />} />
-
-        <Route exact path='/Portfolio' element={<Portfolio />} />
-
-      
+        <Route exact path='/Projects' element={<Projects />} />
+        <Route exact path='/Contact' element={<Contact />} />
+        <Route exact path='/Resume' element={<Resume />} />
       </Routes>
-    {/* <AboutMe myPic={myPic}/> */}
     <Footer />
     </Router>
   );
