@@ -16,11 +16,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav>
+          <a className= 'list'>About Me</a>
+          {/* Note to me- Change to My Work */}
+          <a className= 'list'>Portfolio</a>
+          <a className= 'list'>Contact</a>
+          <a className= 'list'>Resume</a>
+        </nav>
       <h1>Hi, I'm Alviva. Welcome to my Portfolio!</h1>
-        <img src={myPic} className='mePic' alt="logo" />
+  
       </header>
      <div className= 'container'></div>
-     <footer>Made with love by Alviva</footer>
+     <footer>Made with 💗 by Alviva</footer>
     </div>
   );
 }

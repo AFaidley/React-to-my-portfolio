@@ -12,6 +12,16 @@
   height: 40vmin;
 }
 
+.list {
+  flex-shrink: 1;
+  flex-direction: row;
+  font-size: 25px;
+  margin-right: 20px;
+  color: #551b14;
+  list-style-type: none;
+  text-shadow: 5px 5px 5px grey;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +37,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #551b14;
+  text-shadow: 10px 10px 5px grey;
 }
 
 .App-link {

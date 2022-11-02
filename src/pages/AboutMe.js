@@ -1,0 +1,1 @@
+<img src={myPic} className='mePic' alt="logo" />
