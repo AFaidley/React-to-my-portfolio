@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: fantasy;
+  background-color: #b59da4;
 }
 
 .App-logo {
@@ -29,7 +30,6 @@
 }
 
 .App-header {
-  background-color: #b59da4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

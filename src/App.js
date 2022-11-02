@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import myPic from './img/me.jpg'
+import myPic from './img/me.jpg';
+import React from 'react';
+import AboutMe from './pages/AboutMe';
 
 // className="App-logo"
 /* <a
@@ -18,16 +19,14 @@ function App() {
       <header className="App-header">
         <nav>
           <a className= 'list'>About Me</a>
-          {/* Note to me- Change to My Work */}
+          {/* Note to myself- Change to My Work */}
           <a className= 'list'>Portfolio</a>
           <a className= 'list'>Contact</a>
           <a className= 'list'>Resume</a>
         </nav>
-      <h1>Hi, I'm Alviva. Welcome to my Portfolio!</h1>
-  
       </header>
-     <div className= 'container'></div>
-     <footer>Made with 💗 by Alviva</footer>
+<AboutMe myPic={myPic}/>
+     <footer>Made with <span>💗</span> by Alviva</footer>
     </div>
   );
 }
