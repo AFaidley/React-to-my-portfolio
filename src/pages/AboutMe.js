@@ -1,6 +1,9 @@
 import React from "react";
+import {useNavigate} from "react-router-dom"
 
 function AboutMe(props) {
+    let navigate = useNavigate()
+
     return (
         <section>
             <div>
@@ -14,6 +17,10 @@ function AboutMe(props) {
                 </p>
                 <p>If you want any more information about myself or my work, you can always reach out and say hi! &#128075</p>
             </div>
+            <button onClick={() => {
+                alert("dang it patrice")
+        navigate("/Portfolio")
+      }}>click me</button>
         </section>
     )
 }

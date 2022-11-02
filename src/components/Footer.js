@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Footer(props) {
-  return <footer className="App-footer">{props.footer}</footer>;
+function Footer() {
+  return <footer className="App-footer">Made with 💗 by Alviva</footer>;
 }
 
 export default Footer;
