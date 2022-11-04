@@ -3,7 +3,7 @@ nav, .list-group-item, a {
   color:#551b14;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .aboutMe {
   color: #551b14;
   font-family: fantasy;
 }
@@ -45,6 +45,17 @@ h1, h2, h3 {
   color: #551b14;
   list-style-type: none;
   text-shadow: 5px 5px 5px grey;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
