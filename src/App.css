@@ -3,14 +3,15 @@ nav, .list-group-item, a {
   color:#551b14;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #551b14;
   font-family: fantasy;
 }
 
 .App-footer {
-
+ color: #551b14
 }
+
 .body {
   background-color: #cdc5b4
 }
