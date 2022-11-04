@@ -41,15 +41,17 @@ function Form() {
     setMessage('');
   };
 
-  function onMouseOut() {
-    return alert('Name is required to submit');
-  }
-
+  // function onMouseOut() {
+  //   alert('Text is required!')
+  // };
+  
   return (
-    <div onMouseOut="onMouseOut()">
+    <div className= 'mb-3 formbg'>
       
       <form className="form">
           <input
+          className='form-label'
+            // onMouseOut={onMouseOut}
             value={name}
             name="name"
             onChange={handleInputChange}
@@ -57,6 +59,7 @@ function Form() {
             placeholder="name"
           />
         <input
+          // onMouseOut={onMouseOut}
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -64,6 +67,7 @@ function Form() {
           placeholder="email"
         />
         <input
+          // onMouseOut={onMouseOut}
           value={message}
           name="message"
           onChange={handleInputChange}

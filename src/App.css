@@ -50,6 +50,9 @@ h2, h3, .aboutMe {
   height: 40vmin;
 }
 
+.formbg {
+  background-color: #cdc5b4;
+}
 .list {
   flex-shrink: 1;
   flex-direction: row;
