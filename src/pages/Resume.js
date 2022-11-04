@@ -2,11 +2,11 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div>
-            <h1><a href='#'>Resume</a></h1>
-            
+        <div className='text-center'>
+            <h2 className='text-center mt-5'><a id='resume'  href='#'>View my Resume</a></h2>
+            <br></br>
             <h3>Front-end Proficiencies</h3>
-            <ul className='list-group'>
+            <ol className='list-group' id='reslist'>
                 <li className='list-group-item'>HTML</li>
                 <li className='list-group-item'>CSS</li>
                 <li className='list-group-item'>JavaScript</li>
@@ -14,9 +14,9 @@ function Resume() {
                 <li className='list-group-item'>JQuery</li>
                 <li className='list-group-item'>Bootstrap</li>
                 <li className='list-group-item'>React</li>
-            </ul>
+            </ol>
             <h3>Back-end Proficiencies</h3>
-            <ul className='list-group'>
+            <ul className='list-group' id='reslist'>
                 <li className='list-group-item'>APIs</li>
                 <li className='list-group-item'>Node</li>
                 <li className='list-group-item'>Express</li>

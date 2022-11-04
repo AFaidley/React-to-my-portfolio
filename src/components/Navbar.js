@@ -11,7 +11,7 @@ let color = {
 
 // Navbar links used NavLinks so that I can change color when active
     return (
-        <nav className='list-group '>
+        <nav className='navbackground list-group'>
             <ul>
                 <li className='list-group-item'> <NavLink id='nav' to='/' style={({ isActive }) => ({
           ...(isActive ? color.active : null),

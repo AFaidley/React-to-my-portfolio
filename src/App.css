@@ -3,13 +3,17 @@ nav, .list-group-item, a {
   color:#551b14;
 }
 
-h1, h2, h3, .aboutMe {
+h1 {
   color: #551b14;
   font-family: fantasy;
 }
 
+h2, h3, .aboutMe {
+  color: #6d3d14;
+  font-family: fantasy;
+}
 .App-footer {
- color: #551b14
+ color: #551b14;
 }
 
 .body {
@@ -23,9 +27,14 @@ h1, h2, h3, .aboutMe {
 }
 
 .list-group .list-group-item {
-  background-color: #b59da4;
+  background-color: #cdc5b4;
   font-size: larger;
   border: none;
+}
+
+.navbackground ul, 
+.navbackground ul .list-group-item {
+  background-color: #b59da4;
 }
 
 .App-logo {
@@ -50,6 +59,7 @@ h1, h2, h3, .aboutMe {
   list-style-type: none;
   text-shadow: 5px 5px 5px grey;
 }
+
 
 .form {
   margin: 20px;
@@ -112,4 +122,13 @@ h1, h2, h3, .aboutMe {
 
 #nav {
   color: #551b14;
+}
+
+#resume {
+  color: #6d3d14;
+}
+
+.list-group .list-group-item {
+  color: #6d3d14;
+  font-family: fantasy;
 }
