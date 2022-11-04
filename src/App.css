@@ -33,6 +33,10 @@ h1, h2, h3, .aboutMe {
   pointer-events: none;
 }
 
+.aboutMe {
+  font-size: large;
+}
+
 .mePic {
   height: 40vmin;
 }
@@ -89,4 +93,23 @@ h1, h2, h3, .aboutMe {
 
 #app {
   background-color: #cdc5b4;
+}
+
+#linkedin {
+  height: 50px;
+  padding: 10px;
+}
+
+#stack {
+  height: 50px;
+  padding: 10px;
+}
+
+#github {
+  height: 50px;
+  padding: 10px;
+}
+
+#nav {
+  color: #551b14;
 }

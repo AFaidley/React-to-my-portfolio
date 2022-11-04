@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 
 
-function Navbar(props) {
+function Navbar() {
 let color = {
     active: {
-        backgroundColor: 'green'
+        color: '#85756e'
     },
 }
 
@@ -13,16 +13,16 @@ let color = {
     return (
         <nav className='list-group '>
             <ul>
-                <li className='list-group-item'> <NavLink to='/' style={({ isActive }) => ({
+                <li className='list-group-item'> <NavLink id='nav' to='/' style={({ isActive }) => ({
           ...(isActive ? color.active : null),
         })}>About Me</NavLink></li>
-                <li className='list-group-item'> <NavLink to='/Projects' style={({ isActive }) => ({
+                <li className='list-group-item'> <NavLink id='nav' to='/Projects' style={({ isActive }) => ({
           ...(isActive ? color.active : null),
         })}>Projects</NavLink></li>
-                <li className='list-group-item'> <NavLink to='/Contact' style={({ isActive }) => ({
+                <li className='list-group-item'> <NavLink id='nav' to='/Contact' style={({ isActive }) => ({
           ...(isActive ? color.active : null),
         })}>Contact Me</NavLink></li>
-                <li className='list-group-item'> <NavLink to='/Resume' style={({ isActive }) => ({
+                <li className='list-group-item'> <NavLink id='nav' to='/Resume' style={({ isActive }) => ({
           ...(isActive ? color.active : null),
         })}>Resume</NavLink></li>
             </ul>
