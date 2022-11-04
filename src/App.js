@@ -18,7 +18,7 @@ function App() {
 
   return (
     <Router className="App">
-    <Header className="App-header"/>
+    <Header className="header"/>
       <Routes>
         <Route exact path='/' element={<AboutMe />} />
         <Route exact path='/Projects' element={<Projects />} />

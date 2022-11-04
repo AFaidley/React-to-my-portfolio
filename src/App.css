@@ -1,11 +1,30 @@
-li {
-  color: black;
+
+nav, .list-group-item, a {
+  color:#551b14;
+}
+
+h1, h2 {
+  color: #551b14;
+  font-family: fantasy;
+}
+
+.App-footer {
+
+}
+.body {
+  background-color: #cdc5b4
 }
 
 .App {
   text-align: center;
   font-family: fantasy;
   background-color: #b59da4;
+}
+
+.list-group .list-group-item {
+  background-color: #b59da4;
+  font-size: larger;
+  border: none;
 }
 
 .App-logo {
@@ -40,7 +59,6 @@ li {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #551b14;
   text-shadow: 10px 10px 5px grey;
 }
 
@@ -55,4 +73,8 @@ li {
   to {
     transform: rotate(360deg);
   }
+}
+
+#app {
+  background-color: #cdc5b4;
 }

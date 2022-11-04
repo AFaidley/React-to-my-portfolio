@@ -4,8 +4,8 @@ import myPic from '../img/me.jpg';
 function AboutMe() {
 
     return (
-        <section>
-            <div>
+        <section className="body" >
+            <div className="text-center body">
                 <h2>About Me</h2>
                 <br></br>
                 <img src={myPic} className='mePic' alt='me' />
