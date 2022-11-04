@@ -6,6 +6,7 @@ nav, .list-group-item, a {
 h1 {
   color: #551b14;
   font-family: fantasy;
+  background-color: #b59da4;
 }
 
 h2, h3, .aboutMe {
@@ -23,7 +24,7 @@ h2, h3, .aboutMe {
 .App {
   text-align: center;
   font-family: fantasy;
-  background-color: #b59da4;
+  background-color: #cdc5b4;
 }
 
 .list-group .list-group-item {
@@ -53,6 +54,7 @@ h2, h3, .aboutMe {
 .formbg {
   background-color: #cdc5b4;
 }
+
 .list {
   flex-shrink: 1;
   flex-direction: row;
@@ -63,17 +65,40 @@ h2, h3, .aboutMe {
   text-shadow: 5px 5px 5px grey;
 }
 
+.flexcont {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50;
+  background-color: #cdc5b4;
+}
+.projects {
+  display: block;
+  max-width: 50%;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
 
 .form {
   margin: 20px;
 }
 
-.form input {
+.form input, textarea{
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
 }
+
+.formfield {
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+/* 
+.message {
+  height: 100px;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -127,8 +152,12 @@ h2, h3, .aboutMe {
   color: #551b14;
 }
 
-#resume {
+#resume, #projlinks {
   color: #6d3d14;
+}
+
+#my-projects {
+  padding: 3%;
 }
 
 .list-group .list-group-item {

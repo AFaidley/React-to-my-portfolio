@@ -5,6 +5,7 @@ function Resume() {
         <div className='text-center'>
             <h2 className='text-center mt-5'><a id='resume'  href='#'>View my Resume</a></h2>
             <br></br>
+            <br></br>
             <h3>Front-end Proficiencies</h3>
             <ol className='list-group' id='reslist'>
                 <li className='list-group-item'>HTML</li>
@@ -25,6 +26,8 @@ function Resume() {
                 <li className='list-group-item'>MongoDB, Mongoose</li>
                 <li className='list-group-item'>GraphQL</li>
             </ul>
+            <br></br>
+            <br></br>
         </div>
     );
 }

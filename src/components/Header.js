@@ -7,7 +7,7 @@ import Resume from '../pages/Resume';
 
 function Header() {
     return (
-    <div className="App">
+    <div className="App headernav">
         <h1>Hi, I'm Alviva. Welcome to my Portfolio!</h1>
         <Navbar about={<AboutMe />} projects={<Projects />} contact={<Contact />} resume={<Resume />}/>
     </div>

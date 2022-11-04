@@ -22,7 +22,7 @@ function Form() {
     } else if (inputType === 'email') {
         setEmail(inputValue);
     } else {
-        setMessage(inputValue === 'message');
+        setMessage(inputValue);
     }
   };
 
@@ -44,41 +44,45 @@ function Form() {
   // function onMouseOut() {
   //   alert('Text is required!')
   // };
-  
+
   return (
-    <div className= 'mb-3 formbg'>
-      
-      <form className="form">
-          <input
-          className='form-label'
-            // onMouseOut={onMouseOut}
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="name"
-          />
+    <div className='mb-3 formbg'>
+      <form className='form'>
         <input
+          className='w-50 formfield'
+          // onMouseOut={onMouseOut}
+          value={name}
+          name='name'
+          onChange={handleInputChange}
+          type='text'
+          placeholder='Name'
+        />
+        <input
+          className='w-50 formfield'
           // onMouseOut={onMouseOut}
           value={email}
-          name="email"
+          name='email'
           onChange={handleInputChange}
-          type="email"
-          placeholder="email"
+          type='email'
+          placeholder='Email'
         />
-        <input
+        <textarea
+          className='w-50 formfield message'
           // onMouseOut={onMouseOut}
+          rows='5'
           value={message}
-          name="message"
+          name='message'
           onChange={handleInputChange}
-          type="message"
-          placeholder="message"
+          type='message'
+          placeholder='Message'
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button className='btn btn-outline-secondary' type='button' onClick={handleFormSubmit}>
+          Submit
+        </button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className='error-text'>{errorMessage}</p>
         </div>
       )}
     </div>
