@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <div className='text-center'>
-            <h2 className='text-center mt-5'><a id='resume'  href='#'>View my Resume</a></h2>
+            <h2 className='text-center mt-5'><a id='resume'  href='https://docs.google.com/document/d/1SAtbbtRcBFoVcJBXsU-uE4UhwLYojfVvIsfPpshaXlk/edit?usp=sharing'>View my Resume</a></h2>
             <br></br>
             <br></br>
             <h3>Front-end Proficiencies</h3>

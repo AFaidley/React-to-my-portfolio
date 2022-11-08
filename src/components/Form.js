@@ -39,6 +39,7 @@ function Form() {
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
 
   // function onMouseOut() {

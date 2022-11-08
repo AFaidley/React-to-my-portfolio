@@ -14,7 +14,7 @@ This is my React portfolio. It will allow anyone who is interested in browsing t
 <br>
 Below is a link to my deployed app:
 <br>
-https://drive.google.com/file/d/1d1Y0PG3fTC0I3DBBwCW-Q4ZVPH3lgYM4/view
+https://afaidley.github.io/React-to-my-portfolio/
 
 ## Technology Used
 - Javascript
