@@ -13,7 +13,7 @@ let color = {
     return (
         <nav className='navbackground list-group'>
             <ul>
-                <li className='list-group-item'> <NavLink id='nav' to='/React-to-my-portfolio/#/React-to-my-portfolio' style={({ isActive }) => ({
+                <li className='list-group-item'> <NavLink id='nav' to='/React-to-my-portfolio' style={({ isActive }) => ({
           ...(isActive ? color.active : null),
         })}>About Me</NavLink></li>
                 <li className='list-group-item'> <NavLink id='nav' to='/Projects' style={({ isActive }) => ({
