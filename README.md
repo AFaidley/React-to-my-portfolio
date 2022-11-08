@@ -15,6 +15,9 @@ This is my React portfolio. It will allow anyone who is interested in browsing t
 Below is a link to my deployed app:
 <br>
 https://afaidley.github.io/React-to-my-portfolio/
+<br>
+<br>
+![Portfolio](./src/img/readmess.jpg)
 
 ## Technology Used
 - Javascript

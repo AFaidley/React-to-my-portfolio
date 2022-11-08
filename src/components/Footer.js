@@ -5,6 +5,7 @@ import StackOverFlow from '../img/download.png';
 
 function Footer() {
   return (
+    // Imgs are a tags and link to the website
     <footer className='App-footer text-center'>
       <a href='https://github.com/AFaidley'>
         <img id= 'github' src={Github} alt='Github'></img>
