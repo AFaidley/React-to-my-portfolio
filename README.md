@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# React Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Table of Contents
+* [Description](#description)
+* [Technology Used](#technology-used)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [License](#license)
+* [Testing](#testing)
+* [Questions](#questions)
+## Description
+This is my React portfolio. It will allow anyone who is interested in browsing through my projects, learning a little about me or contacting me, to do so. 
+<br>
+Below is a link to my deployed app:
+<br>
+https://drive.google.com/file/d/1d1Y0PG3fTC0I3DBBwCW-Q4ZVPH3lgYM4/view
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technology Used
+- Javascript
+- Node
+- React
+- Axios
+- Bootstrap
+- Gh-Pages
+- React Router DOM
+## Installation
+N/A
+## Usage
+The user will be able to navigate to the above deployed link or check my repo for the deployed link and open up my React portfolio.
+Thank you for using my app!
 
-## Available Scripts
+## Contribution
+- Denver University Staff
+- Tutor
+- https://reactjs.org/docs/getting-started.html
+- https://www.youtube.com/watch?v=hQAHSlTtcmY
+- https://reactjs.org/tutorial/tutorial.html
+- https://reactjs.org/docs/lists-and-keys.html
+- https://www.javatpoint.com/browserrouter-in-react
+- https://reactrouter.com/en/main/components/nav-link
+- https://getbootstrap.com/docs/5.2/components/navbar/#how-it-works
+- https://reactjs.org/docs/hooks-state.html
+- https://nodejs.org/en/docs/
+- https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-In the project directory, you can run:
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br>
+https://opensource.org/licenses/MIT
 
-### `npm start`
+## Testing
+N/A
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you have questions or any queries about contributing, you can either open a issue in my Github repository. <br>
+GitHub: <https://github.com/AFaidley> <br>
+<br>
+Or you can send me an email directly. <br>
+Email: <alviva.faidley@gmail.com>
