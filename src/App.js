@@ -20,7 +20,7 @@ function App() {
     <Router className="App">
     <Header className="header"/>
       <Routes>
-        <Route path='/React-to-my-portfolio' element={<AboutMe />} />
+        <Route path='/React-to-my-portfolio/#/React-to-my-portfolio' element={<AboutMe />} />
         <Route exact path='/Projects' element={<Projects />} />
         <Route exact path='/Contact' element={<Contact />} />
         <Route exact path='/Resume' element={<Resume />} />
