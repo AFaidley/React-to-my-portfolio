@@ -20,6 +20,8 @@ function AboutMe() {
                     my passion to code!
                 </p>
                 <p className='aboutMe'>If you want any more information about myself or my work, you can always reach out and say hi!</p>
+                <br></br>
+                <br></br>
             </div>
         </section>
     )
