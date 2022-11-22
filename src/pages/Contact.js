@@ -11,7 +11,9 @@ function Contact() {
             <br></br>
             <br></br>
             <Form />
-           <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>

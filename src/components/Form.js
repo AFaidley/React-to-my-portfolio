@@ -48,7 +48,7 @@ function Form() {
 
   return (
     <div className='mb-3 formbg'>
-      <form className='form'>
+      {/* <form className='form'>
         <input
           className='w-50 formfield'
           // onMouseOut={onMouseOut}
@@ -85,7 +85,14 @@ function Form() {
         <div>
           <p className='error-text'>{errorMessage}</p>
         </div>
-      )}
+      )} */}
+      <div className='contact'>
+      <p>Reach out if you have any further questions or just want to say hi!</p>
+      <p>Feel free to shoot me a message on my Linkedin, which is found in the bottom of the page- so easy!</p>
+      <p>You can also use the following methods of contact:</p>
+      <p>Email: alviva.faidley@gmail.com</p>
+      <p>Phone: (605)-209-0341</p>
+      </div>
     </div>
   );
 }

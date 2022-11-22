@@ -21,6 +21,10 @@ h2, h3, .aboutMe {
   background-color: #cdc5b4
 }
 
+.contact {
+  color: #551b14;
+  font-size: large;
+}
 .App {
   text-align: center;
   font-family: fantasy;
