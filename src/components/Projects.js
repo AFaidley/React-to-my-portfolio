@@ -6,6 +6,7 @@ import thirdImg from '../img/NoteTaker.png'
 import fourthImg from '../img/Screenshot 2022-07-24 153656.png'
 import fifthImg from '../img/Screenshot 2022-07-29 145947.png'
 import sixthImg from '../img/JATE.jpg'
+import seventhImg from '../img/KIN.jpg'
 
 function Projects() {
   return (
@@ -15,6 +16,11 @@ function Projects() {
       oneImg={firstImg}
       oneLive='https://evening-reef-97935.herokuapp.com/'
       oneRepo='https://github.com/heintze11/health-tracker'
+
+      seven='KIN'
+      sevenImg={seventhImg}
+      sevenLive='https://knowledge-in-numbers.herokuapp.com/'
+      sevenRepo='https://github.com/AFaidley/KIN'
 
       two='Air Quality/Greenhouse Gas Comparison'
       twoImg={secondImg}

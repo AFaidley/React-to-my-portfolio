@@ -6,6 +6,21 @@ function Portfolio(props) {
     <div className='App text-center flexcont'>
       <h2 id='my-projects'>My Projects</h2>
       <div className='projects'>
+        <h1><a id='projlinks' href={props.sevenLive}>{props.seven}</a></h1>
+        <a href={props.sevenLive} target='_blank' rel='noopener noreferrer'>
+          <img src={props.sevenImg} className='img-fluid' alt={props.seven}></img>
+        </a>
+        <a
+          id='projlinks'
+          href={props.sevenRepo}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Repo Link
+        </a>
+      </div>
+      
+      <div className='projects'>
         <h1><a id='projlinks' href={props.oneLive}>{props.one}</a></h1>
         <a href={props.oneLive} target='_blank' rel='noopener noreferrer'>
           <img src={props.oneImg} className='img-fluid' alt={props.one}></img>
@@ -19,6 +34,7 @@ function Portfolio(props) {
           Repo Link
         </a>
       </div>
+
 
       <div className='projects'>
         <h1><a id='projlinks' href={props.twoLive}>{props.two}</a></h1>
