@@ -51,7 +51,7 @@ function Portfolio(props) {
         </a>
       </div>
 
-      <div className='projects '>
+      {/* <div className='projects '>
         <h1><a id='projlinks' href={props.threeLive}>{props.three}</a></h1>
         <a href={props.threeLive} target='_blank' rel='noopener noreferrer'>
           <img src={props.threeImg} className='img-fluid' alt={props.three}></img>
@@ -64,7 +64,7 @@ function Portfolio(props) {
         >
           Repo Link
         </a>
-      </div>
+      </div> */}
 
       <div className='projects'>
         <h1><a id='projlinks' href={props.fourLive}>{props.four}</a></h1>
