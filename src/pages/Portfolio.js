@@ -97,7 +97,7 @@ function Portfolio(props) {
       </div>
 
       <div className='projects'>
-        <h1><a id='projlinks' href={props.sixLive}>{props.one}</a></h1>
+        <h1><a id='projlinks' href={props.sixLive}>{props.six}</a></h1>
         <a href={props.sixLive} target='_blank' rel='noopener noreferrer'>
           <img src={props.sixImg} className='img-fluid' alt={props.six}></img>
         </a>
