@@ -22,7 +22,7 @@ function Projects() {
       sevenLive='https://knowledge-in-numbers.herokuapp.com/'
       sevenRepo='https://github.com/AFaidley/KIN'
 
-      two='Air Quality/Greenhouse Gas Comparison'
+      two='Air Quality Comparison'
       twoImg={secondImg}
       twoLive='https://thaling11.github.io/air-quality-comparison/'
       twoRepo='https://github.com/thaling11/air-quality-comparison'
