@@ -8,13 +8,13 @@ function Footer() {
     // Imgs are a tags and link to the website
     <footer className='App-footer text-center'>
       <a href='https://github.com/AFaidley'>
-        <img id= 'github' src={Github} alt='Github'></img>
+        <img id='github' src={Github} alt='Github'></img>
       </a>
       <a href='https://www.linkedin.com/in/alviva-faidley-a6261823b/'>
-        <img id= 'linkedin' src={LinkedIn}></img>
+        <img id='linkedin' src={LinkedIn}></img>
       </a>
       <a href='https://stackoverflow.com/users/17968793/afaidley'>
-        <img id= 'stack' src={StackOverFlow}></img>
+        <img id='stack' src={StackOverFlow}></img>
       </a>
     </footer>
   );
