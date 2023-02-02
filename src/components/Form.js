@@ -18,11 +18,11 @@ function Form() {
 
     // Based on the input type, we set the state to name, email or msg
     if (inputType === 'name') {
-        setName(inputValue);
+      setName(inputValue);
     } else if (inputType === 'email') {
-        setEmail(inputValue);
+      setEmail(inputValue);
     } else {
-        setMessage(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -87,11 +87,16 @@ function Form() {
         </div>
       )} */}
       <div className='contact'>
-      <p>Reach out if you have any further questions or just want to say hi!</p>
-      <p>Feel free to shoot me a message on my Linkedin, which is found in the bottom of the page- so easy!</p>
-      <p>You can also use the following methods of contact:</p>
-      <p>Email: alviva.faidley@gmail.com</p>
-      <p>Phone: (605)-209-0341</p>
+        <p>
+          Reach out if you have any further questions or just want to say hi!
+        </p>
+        <p>
+          Feel free to shoot me a message on my Linkedin, which is found on the
+          bottom of the page- so easy!
+        </p>
+        <p>You can also use the following methods of contact:</p>
+        <p>Email: alviva.faidley@gmail.com</p>
+        <p>Phone: (605)-209-0341</p>
       </div>
     </div>
   );
