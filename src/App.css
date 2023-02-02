@@ -1,6 +1,7 @@
-
-nav, .list-group-item, a {
-  color:#551b14;
+nav,
+.list-group-item,
+a {
+  color: #551b14;
 }
 
 h1 {
@@ -9,16 +10,25 @@ h1 {
   background-color: #b59da4;
 }
 
-h2, h3, .aboutMe {
+h3 {
+  color: #6d3d14;
+  font-family: fantasy;
+  text-decoration: underline double;
+  text-decoration-color: #551b14;
+  /* border-bottom: 0px solid #000; */
+}
+
+h2,
+.aboutMe {
   color: #6d3d14;
   font-family: fantasy;
 }
 .App-footer {
- color: #551b14;
+  color: #551b14;
 }
 
 .body {
-  background-color: #cdc5b4
+  background-color: #cdc5b4;
 }
 
 .contact {
@@ -37,7 +47,7 @@ h2, h3, .aboutMe {
   border: none;
 }
 
-.navbackground ul, 
+.navbackground ul,
 .navbackground ul .list-group-item {
   background-color: #b59da4;
 }
@@ -49,10 +59,13 @@ h2, h3, .aboutMe {
 
 .aboutMe {
   font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mePic {
   height: 40vmin;
+  border: #6d3d14 6px double;
 }
 
 .formbg {
@@ -88,7 +101,8 @@ h2, h3, .aboutMe {
   margin: 20px;
 }
 
-.form input, textarea{
+.form input,
+textarea {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -156,8 +170,13 @@ h2, h3, .aboutMe {
   color: #551b14;
 }
 
-#resume, #projlinks {
+#projlinks {
   color: #6d3d14;
+}
+
+#resume {
+  color: #6d3d14;
+  text-decoration: overline;
 }
 
 #my-projects {
