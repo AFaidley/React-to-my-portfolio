@@ -8,9 +8,6 @@ function AboutMe() {
         <h2>About Me</h2>
         <br></br>
         <img src={myPic} className='mePic' alt='me' />
-        <br></br>
-        <br></br>
-        <br></br>
         <p className='aboutMe'>
           How about I tell you a little about myself? I am a Full stack web
           developer with aviation experience within the U.S as well as abroad. I
@@ -33,8 +30,6 @@ function AboutMe() {
           If you want any more information about myself or my work, you can
           always reach out and say hi!
         </p>
-        <br></br>
-        <br></br>
       </div>
     </section>
   );
