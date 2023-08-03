@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e823a67d33eae0ad994c",
+    "revision": "8a1df07f7662cf8496b2",
     "url": "/React-to-my-portfolio/static/css/main.6423ce47.chunk.css"
   },
   {
-    "revision": "e823a67d33eae0ad994c",
-    "url": "/React-to-my-portfolio/static/js/main.e823a67d.chunk.js"
+    "revision": "8a1df07f7662cf8496b2",
+    "url": "/React-to-my-portfolio/static/js/main.8a1df07f.chunk.js"
   },
   {
     "revision": "ae4700ead3b6e1632dda",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/React-to-my-portfolio/static/media/screenshot-main.4adf4f42.jpg"
   },
   {
-    "revision": "854f3848be39781722aef54b4789cd8e",
-    "url": "/React-to-my-portfolio/static/media/air-quality-home-page.854f3848.jpg"
+    "revision": "186716eb2b84ca04c6723e8d5f95312e",
+    "url": "/React-to-my-portfolio/static/media/google book search.186716eb.jpg"
   },
   {
     "revision": "d46d3e0fd27795c36e1a727c974345d4",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/React-to-my-portfolio/static/media/KIN.a9b473d7.jpg"
   },
   {
-    "revision": "04b5c527fefcbdd9f32ac3af035f04c5",
+    "revision": "9b1b4a4e575229742df8cc12fa4d73e9",
     "url": "/React-to-my-portfolio/index.html"
   }
 ];
