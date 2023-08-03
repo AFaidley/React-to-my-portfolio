@@ -1,7 +1,7 @@
 import React from 'react';
 import Portfolio from '../pages/Portfolio';
 import firstImg from '../img/screenshot-main.jpg';
-import secondImg from '../img/air-quality-home-page.jpg';
+import secondImg from '../img/google book search.jpg';
 import thirdImg from '../img/NoteTaker.png';
 import fourthImg from '../img/Screenshot 2022-07-24 153656.png';
 import fifthImg from '../img/Screenshot 2022-07-29 145947.png';
@@ -20,10 +20,10 @@ function Projects() {
         sevenImg={seventhImg}
         sevenLive='https://knowledge-in-numbers.herokuapp.com/'
         sevenRepo='https://github.com/AFaidley/KIN'
-        two='Air Quality Comparison'
+        two='Google Book Search'
         twoImg={secondImg}
-        twoLive='https://thaling11.github.io/air-quality-comparison/'
-        twoRepo='https://github.com/thaling11/air-quality-comparison'
+        twoLive='https://okay-google-search-for-a-book.herokuapp.com/'
+        twoRepo='https://github.com/AFaidley/okay-google-find-me-a-book'
         three='Note Taker'
         threeImg={thirdImg}
         threeLive='https://where-is-my-notebook.herokuapp.com/'
